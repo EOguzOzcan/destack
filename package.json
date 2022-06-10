@@ -13,8 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "destack -d \"react-scripts start\"",
+    "build": "destack -b \"react-scripts build\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
